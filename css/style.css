@@ -9656,8 +9656,10 @@ body.sidebar-open::before {
   background: #bbbbf2;
 }
 
+
 .case-studies .case-studies-card-img {
-  height: 106px;
+  height: 250px;
+  width: 150px;
 }
 
 .case-studies .card-desc-box {
@@ -9672,7 +9674,7 @@ body.sidebar-open::before {
 }
 
 .customer-feedback .customer-cards {
-  background: #f3f7fb;
+  background: ;
   font-size: 18px;
   margin: 0px 12px;
   transition: all 0.7s ease-in-out;
