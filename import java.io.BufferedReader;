@@ -1,0 +1,20 @@
+import java.io.BufferedReader;
+import java.io.BufferedStreamReader;
+import java.util.Properties;
+import javax.jms;
+import javax.naming.Context;
+import javax.naming.InitialContext;
+
+public class Esquivel_Aguila{
+    private static final string QUEUE_NAME = "Esquivel_Aguila";
+
+    public static void main (String[] args){ try
+    Properties props= new
+    Properties(); props.setProperty(Context.ININTIAL_CONTEXT_FACTORY, "org.apache.activemq.jndi.ActiveMQInitialContextFactoryNames", "myQueueCnnectionFcatory");
+    props.put("queue". +QUEUE_NAME, QUEUE_NAME);
+    Context ctx = new InitialContext(props);
+    QueueConnectionFactory f=(QueueConnectionFactory) ctx.lookup("myQueueConnectionFactory");
+    QueueConnectionFactory con = f(QueueConnectionFactory)
+
+    }
+}
